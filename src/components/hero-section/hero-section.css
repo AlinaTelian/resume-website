@@ -1,0 +1,70 @@
+.hire_btn {
+ 
+    color: #0e1b31;
+    
+}
+
+.hire_btn a {
+    text-decoration: none;
+    font-weight: 500;
+    background: #7865ff;
+    color:#fff;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-size: .9rem;   
+    padding: 7px 25px;
+
+ 
+}
+
+.hire_btn:hover a {
+    color: #233d6a;
+}
+
+.ct_btn {
+    
+    color: #0e1b31;
+}
+
+.ct_btn a {
+text-decoration: none;
+font-weight: 500;
+background: #7865ff;
+color:#fff;
+border:none;
+outline: none;
+border-radius: 5px;
+font-size: .9rem;   
+padding: 7px 25px;
+}
+
+.ct_btn:hover a {
+    color: #233d6a;
+}
+
+.hero_title span {
+    color:#7865ff;
+}
+
+.hero_title {
+    font-weight: 600;
+}
+
+.hero_img {
+    
+    width: 440px;
+    height: 440px;
+    border-radius: 10px;
+    background: #7865ff;
+    margin-left: auto; 
+}
+
+.hero_section {
+    padding-top: 150px;
+}
+
+.hero_content p{
+    line-height: 30px;
+    font-weight: 300;
+}
