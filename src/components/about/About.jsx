@@ -74,10 +74,10 @@ const About = () => {
                        </p>
                  <div className="social_links">
                     <h6 className="mb-3">Connect with me:</h6>
-                    <span><a href="#top"><i class="ri-facebook-fill"></i></a></span>
-                    <span><a href="#top"><i class="ri-instagram-line"></i></a></span>
-                    <span><a href="#top"><i class="ri-linkedin-fill"></i></a></span>
-                    <span><a href="#top"><i class="ri-github-fill"></i></a></span>
+                    <span><a href="https://www.facebook.com/caunic.alina"><i class="ri-facebook-fill"></i></a></span>
+                    <span><a href="https://www.instagram.com/alina_telian/"><i class="ri-instagram-line"></i></a></span>
+                    <span><a href="https://www.linkedin.com/in/alina-telian-5848a492/"><i class="ri-linkedin-fill"></i></a></span>
+                    <span><a href="https://github.com/AlinaTelian"><i class="ri-github-fill"></i></a></span>
                  </div>
                 </div>
             </div>

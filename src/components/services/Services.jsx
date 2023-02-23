@@ -8,22 +8,22 @@ import "./services.css";
 
 const servicesData = [
     {
-        icon: 'ri-code-line',
-        title: 'Web Design',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corrupti itaque reiciendis adipisci? Excepturi deserunt dolorum ducimus.'
+        icon: 'ri-html5-fill',
+        title: 'HTML',
+        desc: 'Is a form of markup aimed at presenting text documents on a single page using specialized rendering software called an HTML user agent, the best example of such software being the web browser. HTML provides the means by which the content of a document can be annotated with various types of metadata and rendering cues.'
     },
 
    
     {
-        icon: 'ri-qr-code-line',
-        title: 'App Development',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corrupti itaque reiciendis adipisci? Excepturi deserunt dolorum ducimus.'
+        icon: 'ri-css3-fill',
+        title: 'CSS',
+        desc: "is designed to allow the styling of a web page's content and presentation, including layout, font and colors. This procedure actually improves the accessibility of the content, provides more flexibility and control regarding the specification of presentation features, allows multiple web pages to share formatting, and reduces the repetition and complexity of structured content."
     },
     
     {
-        icon: 'ri-code-box-line',
-        title: 'Web Development',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores corrupti itaque reiciendis adipisci? Excepturi deserunt dolorum ducimus.'
+        icon: 'ri-links-fill',
+        title: 'Javascript',
+        desc: "is a scripting language, mainly used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language, renders web pages in an interactive and dynamic manner. This allows pages to react to events, display special effects, accept variable text, validate data, detect a user's browser, etc."
     },
 
 ]

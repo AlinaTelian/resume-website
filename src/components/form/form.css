@@ -1,0 +1,32 @@
+
+.form {
+    width: 100%;
+    background: #132347;
+    padding: 30px;
+    border-radius: 5px;
+ }
+
+ .form_input input, 
+ .form_input textarea {
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    margin-bottom: 15px;
+    background: #1b3164;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.8rem; ;
+
+ }
+
+.submit_btn {
+    margin-top: 15px;
+    padding: 7px, 15px;
+    font-size: .9rem;
+    background:#132347;
+    color:#fff ;
+    border: 10px;
+    outline: none;
+ 
+}

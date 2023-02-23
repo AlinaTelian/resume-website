@@ -1,31 +1,19 @@
 
 
-import React, {useRef, useEffect, current} from 'react';
+import React  from 'react';
 import './hero-section.css';
 
 import { Container,Row,Col } from 'reactstrap';
 
-import { init } from "ityped";
+
+
+
+
+
 
 import heroImg from '../../assets/images/alina.png.png';
 
 const HeroSection = () => {
-
-   /* const textRef = useRef()
-
-    useEffect(()=>{
-        init(textRef, current, {
-            backDelay: 1500,
-            showCursor: true,
-            strings: [
-                'Alina Telian',
-                'a Web Developer',
-                'ready to learn',
-            ],
-        });
-    }, []); */
-    
-
 
     return <section className="hero_section" id="home">
         <Container>
@@ -35,20 +23,20 @@ const HeroSection = () => {
 
                     <p className="mb-3">Welcome to my world!</p>
                     
-                    <h2 className="hero_title mb-4">
+                    <h1 className="hero_title mb-4">
                         I`m <span /*ref={textRef}*/>Alina</span>
-                        </h2>
-                    <p>I am a punctual and motivated individual who is able to work in a busy enviroment and produce high standards of work. I am flexible, reliable and possess excellent time keeping skills.
+                        </h1>
+                    <p>I am a punctual and motivated individual who is able to work in a busy enviroment and produce high standards of work. I am flexible, reliable and possess excellent time keeping skills. I can work under pressure and remain calm in any situation and focused on what needs to be done. I help others solve a pressing situation. I avoid drama and stay positive when necessary.
                     </p>
 
                     <div className="mt-5 hero_btns d-flex align-items-center gap-4">
                         <button className="btn hire_btn">
-                            <a href="#top">Hire Me</a>
-                            </button>
-                        <button className="btn ct_btn">
-                            <a href="#top">Contact</a>
-                            </button>
-                    </div>
+                        <a className="button" href="document.pdf" download = "document.pdf">
+                            Download My Resume
+                         </a>
+                        </button>  
+                        
+                    </div> 
 
                 </div>
             </Col>

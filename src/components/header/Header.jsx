@@ -1,5 +1,5 @@
 
-import React, {useRef,useEffect} from 'react';
+import React from 'react';
 import { Container } from 'reactstrap';
 
 import './header.css';
@@ -18,8 +18,8 @@ const navLinks = [
     url:'#services'
    },
    {
-    dispaly:'Portofolio',
-    url:'#portofolio'
+    dispaly:'Portfolio',
+    url:'#portfolio'
    },
    {
     dispaly:'Contact',
@@ -28,25 +28,7 @@ const navLinks = [
 ]
 
 const Header = () => {
-   /*const headerRef = useRef(null)
-
-   useEffect(() => {
-      window.addEventListener("scroll", ()=> {
-         if (
-            document.body.scrollTop > 80 || 
-            document.documentElement.scrollTop > 80
-            ) {
-            headerRef.current.classList.add("header_shrink");
-         }
-         else {
-            headerRef.current.ClassList.remove("header_shrink");
-         }
-      });
-
-      return () => {
-         window.removeEventListener("scroll");
-      };
-}, []);*/
+  
 
   const handleClick = e=>{
    e.preventDefault()
@@ -60,7 +42,7 @@ const Header = () => {
   }
 
     return (
-    <header className="header" /*ref={headerRef}*/>
+    <header className="header">
     <Container>
        <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
@@ -80,11 +62,8 @@ const Header = () => {
        </div>
 
        <div className="nav_right d-flex align-items-center gap-4">
-           <button className="btn"> 
-           <a href="#top">Let`s talk</a></button>
-           <span className="mobile_menu">
-            <i class="ri-menu-5-line"></i>
-            </span>
+           
+           
        </div>
        </div>
     </Container>

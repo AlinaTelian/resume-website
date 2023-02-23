@@ -6,6 +6,14 @@ import About from "../about/About";
 
 import Services from "../services/Services";
 
+import Portfolio from '../portfolio/Portfolio';
+
+import Contact from '../contact/Contact';
+
+import Form from '../form/Form';
+
+import Footer from '../footer/Footer';
+
 const Layout = () => {
     return (
     <Fragment>
@@ -13,6 +21,10 @@ const Layout = () => {
        <HeroSection />
        <About />
        <Services />
+       <Portfolio />
+       <Contact />
+       <Form />
+       <Footer />
     </Fragment>
     );
     
